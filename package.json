@@ -1,5 +1,5 @@
 {
-  "name": "codemirror",
+  "name": "@configit/codemirror",
   "version": "5.65.9",
   "main": "lib/codemirror.js",
   "style": "lib/codemirror.css",
