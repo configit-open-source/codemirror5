@@ -3,6 +3,15 @@
 > Configit Changes:
 > 
 > * add conditional in `runMode` function in `highlight.js` ensuring that the `maxHighlightLength` not only limites the number of chars per lines but also limits the total number of chars processed.
+>
+> ## Publishing
+> 
+> To publish a new release run the following commands:
+> 
+> npm run build
+> npm publish 
+>
+> This will build and publish this package to https://github.com/orgs/configit/packages/npm/package/codemirror
 
 # CodeMirror
 

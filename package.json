@@ -1,6 +1,7 @@
 {
   "name": "@configit/codemirror",
   "version": "5.65.9",
+  "private": false,
   "main": "lib/codemirror.js",
   "style": "lib/codemirror.css",
   "author": {
@@ -29,7 +30,7 @@
     "rollup": "^1.26.3",
     "rollup-plugin-copy": "^3.4.0"
   },
-  "bugs": "http://github.com/codemirror/CodeMirror/issues",
+  "bugs": "https://github.com/configit-open-source/CodeMirror/issues",
   "keywords": [
     "JavaScript",
     "CodeMirror",
@@ -38,7 +39,7 @@
   "homepage": "https://codemirror.net/5/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/codemirror/CodeMirror.git"
+    "url": "https://github.com/configit-open-source/CodeMirror.git"
   },
   "jspm": {
     "directories": {},
