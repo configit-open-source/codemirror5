@@ -214,7 +214,7 @@ function runMode(cm, text, mode, context, f, lineClasses, forceToEnd) {
   if (text == "") extractLineClasses(callBlankLine(mode, context.state), lineClasses)
   while (!stream.eol()) {
     if (stream.pos > cm.options.maxHighlightLength || 
-        text.size() > cm.options.maxHighlightLength) {
+        cm.doc.size > cm.options.maxHighlightLength) {
       flattenSpans = false
       if (forceToEnd) processLine(cm, text, context, stream.pos)
       stream.pos = text.length

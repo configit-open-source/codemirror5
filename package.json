@@ -1,6 +1,6 @@
 {
   "name": "@configit/codemirror",
-  "version": "5.65.9",
+  "version": "5.66.1",
   "private": false,
   "main": "lib/codemirror.js",
   "style": "lib/codemirror.css",
