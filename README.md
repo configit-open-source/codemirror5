@@ -1,12 +1,14 @@
-> Configit fork of codemirror5, fork is made to be able to use limit the number of lines being processed by codemirror. This is done to ensure that codemirror does not freeze the browser when processing large rules in Ace Mode.
-
+> Form of codemirror5
+>
+> Configit fork of codemirror5 enables a limit for how many lines should be processed by codemirror, to prevent the browser from freezing when processing large rules in Ace Mode.
+>
 > Configit Changes:
 > 
-> * add conditional in `runMode` function in `highlight.js` ensuring that the `maxHighlightLength` not only limites the number of chars per lines but also limits the total number of chars processed.
+> * add conditional in `runMode` function in `highlight.js`, ensuring that the `maxHighlightLength` limits the number of chars per line and the total number of chars processed.
 >
 > ## Publishing
 > 
-> To publish a new release run the following commands:
+> To publish a new release, run the following commands:
 > 
 > npm run build
 > npm publish 
